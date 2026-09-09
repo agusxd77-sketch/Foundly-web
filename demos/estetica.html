@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Demo Estética - Glow & Beauty</title>
+    <link href="../dist/output.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+    <style>
+        h1, h2, h3 { font-family: 'Playfair Display', serif; }
+        body { font-family: 'Inter', sans-serif; }
+    </style>
+</head>
+<body class="bg-rose-50 text-slate-800">
+
+    <!-- Badge Ejemplo -->
+    <div class="fixed top-4 right-4 z-50">
+        <span class="bg-white/80 backdrop-blur-sm text-slate-400 text-[10px] uppercase tracking-widest font-bold px-3 py-1 rounded-full border border-slate-200">Ejemplo de diseño</span>
+    </div>
+
+    <!-- Navbar -->
+    <nav class="flex justify-between items-center p-6 max-w-6xl mx-auto">
+        <div class="text-2xl font-bold tracking-tight text-rose-400 italic">Glow <span class="text-slate-800">& Beauty</span></div>
+        <a href="https://wa.me/5491160203617?text=Vi%20la%20demo%20de%20Glow%20%26%20Beauty%20y%20me%20interesa%20algo%20as%C3%AD%20para%20mi%20negocio" class="bg-rose-300 text-white px-5 py-2 rounded-full font-semibold text-sm hover:bg-rose-400 transition shadow-sm">Reservar Cita</a>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="relative py-20 px-6 text-center overflow-hidden">
+        <div class="max-w-4xl mx-auto relative z-10">
+            <h1 class="text-5xl md:text-7xl font-bold leading-tight mb-6 text-slate-900">Resalta tu <span class="text-rose-400">belleza natural</span></h1>
+            <p class="text-lg text-slate-600 mb-10 max-w-2xl mx-auto font-light">Tratamientos personalizados de cuidado facial, corporal y manicura en un ambiente de total relax.</p>
+            <a href="https://wa.me/5491160203617?text=Vi%20la%20demo%20de%20Glow%20%26%20Beauty%20y%20me%20interesa%20algo%20as%C3%AD%20para%20mi%20negocio" class="bg-rose-400 text-white px-10 py-4 rounded-full font-semibold text-lg hover:bg-rose-500 transition-all transform hover:scale-105 shadow-lg shadow-rose-200">
+                Ver disponibilidad de turnos
+            </a>
+        </div>
+        <!-- Decor decoration -->
+        <div class="absolute top-0 right-0 w-64 h-64 bg-rose-200 rounded-full blur-3xl opacity-50 -mr-20 -mt-20"></div>
+        <div class="absolute bottom-0 left-0 w-64 h-64 bg-rose-100 rounded-full blur-3xl opacity-50 -ml-20 -mb-20"></div>
+    </section>
+
+    <!-- Services Gallery -->
+    <section class="py-20 px-6 max-w-6xl mx-auto">
+        <h2 class="text-4xl font-bold text-center mb-16">Nuestros <span class="text-rose-400">Cuidados</span></h2>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <div class="bg-white p-4 rounded-3xl shadow-sm border border-rose-100">
+                <img src="https://images.unsplash.com/photo-1560750588-776be5975976?auto=format&fit=crop&w=500&q=80" class="w-full h-64 object-cover rounded-2xl mb-6" alt="Facial">
+                <h3 class="text-2xl font-bold mb-2">Limpieza Profunda</h3>
+                <p class="text-slate-500 mb-4">Renueva tu piel con nuestros tratamientos de exfoliación y nutrición.</p>
+                <span class="text-rose-400 font-bold text-xl">Consultar precio</span>
+            </div>
+            <div class="bg-white p-4 rounded-3xl shadow-sm border border-rose-100">
+                <img src="https://images.unsplash.com/photo-1519014816586-703997a03f87?auto=format&fit=crop&w=500&q=80" class="w-full h-64 object-cover rounded-2xl mb-6" alt="Uñas">
+                <h3 class="text-2xl font-bold mb-2">Manicura & Pedicura</h3>
+                <p class="text-slate-500 mb-4">Diseños personalizados y cuidado intenso para tus manos y pies.</p>
+                <span class="text-rose-400 font-bold text-xl">Consultar precio</span>
+            </div>
+            <div class="bg-white p-4 rounded-3xl shadow-sm border border-rose-100">
+                <img src="https://images.unsplash.com/photo-1544161515-4ab6ce6db874?auto=format&fit=crop&w=500&q=80" class="w-full h-64 object-cover rounded-2xl mb-6" alt="Masajes">
+                <h3 class="text-2xl font-bold mb-2">Masajes Relajantes</h3>
+                <p class="text-slate-500 mb-4">Desconéctate del estrés diario con nuestras terapias corporales.</p>
+                <span class="text-rose-400 font-bold text-xl">Consultar precio</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="py-20 px-6 bg-white text-center">
+        <h2 class="text-4xl font-bold mb-12">Lo que dicen <span class="text-rose-400">nuestras clientes</span></h2>
+        <div class="max-w-3xl mx-auto italic text-slate-600 text-xl leading-relaxed">
+            "La mejor experiencia que he tenido en un centro de estética. La atención es impecable y los resultados de la limpieza facial fueron increíbles. ¡Súper recomendada!"
+            <div class="mt-6 font-bold text-slate-900 not-italic">— Maria G.</div>
+        </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="py-20 px-6 text-center bg-rose-100">
+        <h2 class="text-4xl font-bold mb-6">Regálate un momento para ti</h2>
+        <p class="text-slate-600 mb-10 max-w-xl mx-auto">Reserva tu cita hoy y siente la diferencia en tu piel.</p>
+        <a href="https://wa.me/5491160203617?text=Vi%20la%20demo%20de%20Glow%20%26%20Beauty%20y%20me%20interesa%20algo%20as%C3%AD%20para%20mi%20negocio" class="bg-rose-400 text-white px-10 py-4 rounded-full font-semibold text-lg hover:bg-rose-500 transition-all transform hover:scale-105 shadow-lg shadow-rose-200">
+            Agendar Turno por WhatsApp
+        </a>
+    </section>
+
+    <footer class="py-10 text-center">
+        <p class="text-slate-400 text-sm mb-4">© 2024 Glow & Beauty - Estética Profesional</p>
+        <a href="../index.html" class="text-slate-400 hover:text-rose-400 transition text-sm font-medium">Hecho por Foundly &rarr;</a>
+    </footer>
+
+</body>
+</html>

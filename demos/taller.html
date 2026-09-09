@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Demo Taller - Precision Motors</title>
+    <link href="../dist/output.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&family=Inter:wght@400;600&display=swap" rel="stylesheet">
+    <style>
+        h1, h2, h3 { font-family: 'Roboto Condensed', sans-serif; }
+        body { font-family: 'Inter', sans-serif; }
+    </style>
+</head>
+<body class="bg-slate-100 text-slate-900">
+
+    <!-- Badge Ejemplo -->
+    <div class="fixed top-4 right-4 z-50">
+        <span class="bg-white/80 backdrop-blur-sm text-slate-400 text-[10px] uppercase tracking-widest font-bold px-3 py-1 rounded-full border border-slate-200">Ejemplo de diseño</span>
+    </div>
+
+    <!-- Navbar -->
+    <nav class="flex justify-between items-center p-6 max-w-6xl mx-auto bg-white shadow-sm border-b-4 border-red-600">
+        <div class="text-2xl font-bold tracking-tighter flex items-center gap-2">
+            <span class="bg-red-600 text-white px-2 py-1 rounded">PM</span>
+            <span>PRECISION <span class="text-red-600">MOTORS</span></span>
+        </div>
+        <a href="https://wa.me/5491160203617" class="bg-red-600 text-white px-5 py-2 rounded-lg font-bold text-sm hover:bg-red-700 transition">Pedir Presupuesto</a>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="relative py-20 px-6 text-center bg-slate-900 text-white overflow-hidden">
+        <img src="https://images.unsplash.com/photo-1486262715619-67f5f745788f?auto=format&fit=crop&w=1200&q=80" class="absolute inset-0 w-full h-full object-cover opacity-30" alt="Taller Background">
+        <div class="relative z-10 max-w-4xl mx-auto">
+            <h1 class="text-5xl md:text-7xl font-bold uppercase mb-6 leading-tight">Tu auto en <span class="text-red-600">manos expertas</span></h1>
+            <p class="text-xl text-slate-300 mb-10 max-w-2xl mx-auto">Mecánica integral, electricidad y gomería. Soluciones rápidas y garantizadas para que no pares de moverte.</p>
+
+            <div class="flex flex-col sm:flex-row justify-center gap-4">
+                <a href="tel:5491160203617" class="bg-red-600 text-white px-10 py-4 rounded-lg font-bold text-xl hover:bg-red-700 transition-all transform hover:scale-105 flex items-center justify-center gap-2 shadow-xl shadow-red-900/40">
+                    <span>📞</span> LLAMADA DE EMERGENCIA
+                </a>
+                <a href="https://wa.me/5491160203617" class="bg-white text-slate-900 px-10 py-4 rounded-lg font-bold text-xl hover:bg-slate-100 transition-all">
+                    Consultar WhatsApp
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Key Features -->
+    <section class="py-16 px-6 max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
+        <div class="p-8 bg-white rounded-2xl shadow-sm border-b-4 border-red-600">
+            <div class="text-4xl mb-4">🛠️</div>
+            <h3 class="text-xl font-bold mb-2">Mecánica General</h3>
+            <p class="text-slate-500">Motor, frenos, embrague y suspensión con repuestos originales.</p>
+        </div>
+        <div class="p-8 bg-white rounded-2xl shadow-sm border-b-4 border-red-600">
+            <div class="text-4xl mb-4">⚡</div>
+            <h3 class="text-xl font-bold mb-2">Electricidad</h3>
+            <p class="text-slate-500">Diagnóstico computarizado y reparación de sistema eléctrico.</p>
+        </div>
+        <div class="p-8 bg-white rounded-2xl shadow-sm border-b-4 border-red-600">
+            <div class="text-4xl mb-4">🛞</div>
+            <h3 class="text-xl font-bold mb-2">Gomería & Alineación</h3>
+            <p class="text-slate-500">Balanceo, alineación 3D y venta de neumáticos.</p>
+        </div>
+    </section>
+
+    <!-- Trust Section -->
+    <section class="py-20 px-6 bg-white">
+        <div class="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+            <div>
+                <h2 class="text-4xl font-bold mb-6 uppercase">¿Por qué confiar en <span class="text-red-600">Precision Motors?</span></h2>
+                <ul class="space-y-4">
+                    <li class="flex items-start gap-3">
+                        <span class="text-red-600 font-bold">✓</span>
+                        <p class="text-slate-600"><strong>Garantía por Escrito:</strong> Todos nuestros trabajos están respaldados.</p>
+                    </li>
+                    <li class="flex items-start gap-3">
+                        <span class="text-red-600 font-bold">✓</span>
+                        <p class="text-slate-600"><strong>Transparencia Total:</strong> Te mostramos las piezas reemplazadas.</p>
+                    </li>
+                    <li class="flex items-start gap-3">
+                        <span class="text-red-600 font-bold">✓</span>
+                        <p class="text-slate-600"><strong>Rapidez:</strong> Sabemos que necesitas tu auto pronto, optimizamos los tiempos.</p>
+                    </li>
+                </ul>
+            </div>
+            <div class="bg-slate-200 h-80 rounded-3xl flex items-center justify-center text-slate-400 italic border-2 border-dashed border-slate-300 relative">
+                <span class="p-6 text-center">Aquí se integra el Mapa de Google Maps <br> para que el cliente llegue directo al taller</span>
+                <img src="https://images.unsplash.com/photo-1530046330842-7638e7a41cbe?auto=format&fit=crop&w=400&q=80" class="absolute inset-0 w-full h-full object-cover rounded-3xl opacity-20" alt="Map placeholder">
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Final -->
+    <section class="py-20 px-6 text-center bg-red-600 text-white">
+        <h2 class="text-4xl font-bold uppercase mb-6">No arriesgues tu seguridad</h2>
+        <p class="text-xl mb-10 opacity-90">Trae tu vehículo hoy y viaja tranquilo.</p>
+        <a href="https://wa.me/5491160203617" class="bg-white text-red-600 px-10 py-4 rounded-lg font-bold text-xl hover:bg-slate-100 transition-all transform hover:scale-105">
+            Pedir Turno por WhatsApp
+        </a>
+    </section>
+
+    <footer class="py-10 text-center bg-slate-900 text-white">
+        <p class="text-slate-400 text-sm mb-4">© 2024 Precision Motors - Taller Mecánico Especializado</p>
+        <a href="../index.html" class="text-slate-500 hover:text-white transition text-sm font-medium">Hecho por Foundly &rarr;</a>
+    </footer>
+
+</body>
+</html>
