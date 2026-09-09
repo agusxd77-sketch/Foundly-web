@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Foundly — Webs que te consiguen clientes</title>
+
+    <!-- Favicons -->
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon-180x180.png">
+    <link rel="icon" href="favicon.ico">
+
+    <!-- Metadata -->
+    <meta name="description" content="Hacemos que tu negocio aparezca en Google. Páginas web simples y efectivas para comercios locales.">
+    <meta property="og:title" content="Foundly — Webs que te consiguen clientes">
+    <meta property="og:description" content="Hacemos que tu negocio aparezca en Google, no solo en Instagram.">
+    <meta property="og:image" content="icon-512x512.png">
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Inter', sans-serif; }
+        .faq-answer { display: none; }
+        .faq-item.active .faq-answer { display: block; }
+    </style>
+</head>
+<body class="bg-slate-50 text-slate-900">
+
+    <!-- Navbar -->
+    <nav class="bg-white py-4 px-6 border-b border-slate-100 sticky top-0 z-50">
+        <div class="max-w-6xl mx-auto flex justify-between items-center">
+            <div class="flex items-center gap-2">
+                <img src="favicon-32x32.png" alt="Foundly Logo" class="w-8 h-8">
+                <span class="text-xl font-extrabold tracking-tight text-slate-900">Foundly</span>
+            </div>
+            <a href="https://wa.me/TU_NUMERO" class="bg-blue-600 text-white px-4 py-2 rounded-full font-semibold text-sm hover:bg-blue-700 transition-all shadow-sm">
+                WhatsApp
+            </a>
+        </div>
+    </nav>
+
+    <!-- Header/Hero -->
+    <header class="bg-white py-20 px-6 text-center border-b border-slate-200">
+        <div class="max-w-4xl mx-auto">
+            <span class="text-blue-600 font-bold tracking-[0.2em] uppercase text-xs">FOUNDLY</span>
+            <h1 class="text-4xl md:text-6xl font-extrabold text-slate-900 mt-4 mb-6 leading-tight">
+                Convierte tu negocio en un <span class="text-blue-600">imán de clientes</span>
+            </h1>
+            <p class="text-lg text-slate-600 mb-10 max-w-2xl mx-auto">
+                Ayudo a negocios locales a dejar de depender solo de Instagram y empezar a atraer clientes automáticamente desde Google con páginas web profesionales y optimizadas.
+            </p>
+            <div class="flex flex-col sm:flex-row justify-center gap-4 mb-8">
+                <a href="#demos" class="bg-blue-600 text-white px-8 py-4 rounded-full font-bold text-lg shadow-lg shadow-blue-200 hover:bg-blue-700 transition-all transform hover:-translate-y-1">
+                    Ver Demos en Vivo
+                </a>
+                <a href="https://wa.me/TU_NUMERO" class="bg-white text-slate-700 border border-slate-200 px-8 py-4 rounded-full font-bold text-lg hover:bg-slate-50 transition-all">
+                    Consultar por WhatsApp
+                </a>
+            </div>
+            <p class="text-sm text-slate-400 font-medium italic">Proyectos desde $XX.XXX — Consultanos por un presupuesto a medida</p>
+        </div>
+    </header>
+
+    <!-- Value Props -->
+    <section class="py-20 px-6 max-w-6xl mx-auto">
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-12 text-center">
+            <div class="group p-8 bg-white rounded-3xl border border-slate-100 shadow-sm hover:shadow-xl transition-all duration-300">
+                <div class="w-16 h-16 bg-blue-100 text-blue-600 rounded-2xl flex items-center justify-center text-3xl mx-auto mb-6 group-hover:scale-110 transition-transform">🚀</div>
+                <h3 class="font-bold text-xl mb-3">Más Visibilidad</h3>
+                <p class="text-slate-500">No esperes que te sigan en redes. Aparece en Google justo cuando alguien busca tu servicio en tu zona.</p>
+            </div>
+            <div class="group p-8 bg-white rounded-3xl border border-slate-100 shadow-sm hover:shadow-xl transition-all duration-300">
+                <div class="w-16 h-16 bg-green-100 text-green-600 rounded-2xl flex items-center justify-center text-3xl mx-auto mb-6 group-hover:scale-110 transition-transform">📅</div>
+                <h3 class="font-bold text-xl mb-3">Turnos Automáticos</h3>
+                <p class="text-slate-500">Integramos botones directos a WhatsApp y calendarios para que el cliente reserve sin que tengas que chatear horas.</p>
+            </div>
+            <div class="group p-8 bg-white rounded-3xl border border-slate-100 shadow-sm hover:shadow-xl transition-all duration-300">
+                <div class="w-16 h-16 bg-purple-100 text-purple-600 rounded-2xl flex items-center justify-center text-3xl mx-auto mb-6 group-hover:scale-110 transition-transform">⭐</div>
+                <h3 class="font-bold text-xl mb-3">Confianza Inmediata</h3>
+                <p class="text-slate-500">Un negocio con web propia se ve más profesional y serio, lo que te permite cobrar mejor tus servicios.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- How it Works -->
+    <section class="py-20 px-6 bg-white border-y border-slate-100">
+        <div class="max-w-6xl mx-auto">
+            <h2 class="text-3xl md:text-4xl font-extrabold text-center mb-16">Cómo trabajamos</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 relative">
+                <!-- Step 1 -->
+                <div class="relative p-8 bg-slate-50 rounded-3xl border border-slate-100 text-center">
+                    <div class="w-12 h-12 bg-blue-600 text-white rounded-full flex items-center justify-center font-bold text-xl mx-auto mb-6 shadow-lg shadow-blue-200">1</div>
+                    <h3 class="font-bold text-xl mb-3">Charla Inicial</h3>
+                    <p class="text-slate-500">Analizamos tu negocio, tus servicios y qué es lo que más necesitan ver tus clientes al entrar.</p>
+                </div>
+                <!-- Step 2 -->
+                <div class="relative p-8 bg-slate-50 rounded-3xl border border-slate-100 text-center">
+                    <div class="w-12 h-12 bg-blue-600 text-white rounded-full flex items-center justify-center font-bold text-xl mx-auto mb-6 shadow-lg shadow-blue-200">2</div>
+                    <h3 class="font-bold text-xl mb-3">Diseño & Estrategia</h3>
+                    <p class="text-slate-500">Armo la estructura, elijo los colores y optimizo la página para que sea rápida y convierta visitas en turnos.</p>
+                </div>
+                <!-- Step 3 -->
+                <div class="relative p-8 bg-slate-50 rounded-3xl border border-slate-100 text-center">
+                    <div class="w-12 h-12 bg-blue-600 text-white rounded-full flex items-center justify-center font-bold text-xl mx-auto mb-6 shadow-lg shadow-blue-200">3</div>
+                    <h3 class="font-bold text-xl mb-3">Lanzamiento</h3>
+                    <p class="text-slate-500">Publicamos tu web, la vinculamos a tu Google Maps y empiezas a aparecer frente a nuevos clientes.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Demos Section -->
+    <section id="demos" class="py-20 px-6 bg-slate-100">
+        <div class="max-w-6xl mx-auto">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-extrabold mb-4">Ejemplos Reales</h2>
+                <p class="text-slate-600">Mira cómo podemos adaptar la web según el rubro de tu negocio</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <!-- Barbería -->
+                <div class="bg-white rounded-3xl overflow-hidden shadow-md hover:shadow-2xl transition-all duration-300 group">
+                    <div class="relative overflow-hidden">
+                        <img src="https://images.unsplash.com/photo-1503951906363-69675977667c?auto=format&fit=crop&w=600&q=80" alt="Barbería" class="w-full h-64 object-cover group-hover:scale-110 transition-transform duration-500">
+                        <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
+                        <span class="absolute bottom-4 left-4 text-white font-bold text-lg">Estilo Urbano</span>
+                    </div>
+                    <div class="p-8 text-center">
+                        <h3 class="font-bold text-2xl mb-3">Barberías & Peluquerías</h3>
+                        <p class="text-slate-500 mb-6">Enfoque en galería de cortes, precios claros y reserva rápida de turnos.</p>
+                        <a href="demos/barberia.html" class="block w-full bg-slate-900 text-white py-3 rounded-xl font-semibold hover:bg-blue-600 transition-colors">Ver Demo</a>
+                    </div>
+                </div>
+
+                <!-- Estética -->
+                <div class="bg-white rounded-3xl overflow-hidden shadow-md hover:shadow-2xl transition-all duration-300 group">
+                    <div class="relative overflow-hidden">
+                        <img src="https://images.unsplash.com/photo-1560750588-776be5975976?auto=format&fit=crop&w=600&q=80" alt="Estética" class="w-full h-64 object-cover group-hover:scale-110 transition-transform duration-500">
+                        <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
+                        <span class="absolute bottom-4 left-4 text-white font-bold text-lg">Elegancia & Pureza</span>
+                    </div>
+                    <div class="p-8 text-center">
+                        <h3 class="font-bold text-2xl mb-3">Estéticas & Spas</h3>
+                        <p class="text-slate-500 mb-6">Diseño sofisticado, catálogo de servicios y sección de testimonios reales.</p>
+                        <a href="demos/estetica.html" class="block w-full bg-slate-900 text-white py-3 rounded-xl font-semibold hover:bg-blue-600 transition-colors">Ver Demo</a>
+                    </div>
+                </div>
+
+                <!-- Taller -->
+                <div class="bg-white rounded-3xl overflow-hidden shadow-md hover:shadow-2xl transition-all duration-300 group">
+                    <div class="relative overflow-hidden">
+                        <img src="https://images.unsplash.com/photo-1486262715619-67f5f745788f?auto=format&fit=crop&w=600&q=80" alt="Taller" class="w-full h-64 object-cover group-hover:scale-110 transition-transform duration-500">
+                        <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
+                        <span class="absolute bottom-4 left-4 text-white font-bold text-lg">Confianza & Rapidez</span>
+                    </div>
+                    <div class="p-8 text-center">
+                        <h3 class="font-bold text-2xl mb-3">Talleres & Gomerías</h3>
+                        <p class="text-slate-500 mb-6">Enfoque en urgencias, ubicación exacta en Maps y servicios técnicos.</p>
+                        <a href="demos/taller.html" class="block w-full bg-slate-900 text-white py-3 rounded-xl font-semibold hover:bg-blue-600 transition-colors">Ver Demo</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="py-20 px-6 bg-white">
+        <div class="max-w-3xl mx-auto">
+            <h2 class="text-3xl md:text-4xl font-extrabold text-center mb-12">Preguntas Frecuentes</h2>
+            <div class="space-y-4">
+                <!-- FAQ 1 -->
+                <div class="faq-item border border-slate-200 rounded-2xl overflow-hidden transition-all">
+                    <button onclick="this.parentElement.classList.toggle('active')" class="w-full p-6 text-left flex justify-between items-center bg-slate-50 hover:bg-slate-100 transition-colors">
+                        <span class="font-bold text-lg">¿Cuánto tarda en estar lista mi página?</span>
+                        <span class="text-blue-600 font-bold text-2xl">+</span>
+                    </button>
+                    <div class="faq-answer p-6 text-slate-600 bg-white border-t border-slate-100">
+                        Generalmente entre 3 y 7 días hábiles. Una vez que definimos el contenido y las fotos, el montaje es muy rápido.
+                    </div>
+                </div>
+                <!-- FAQ 2 -->
+                <div class="faq-item border border-slate-200 rounded-2xl overflow-hidden transition-all">
+                    <button onclick="this.parentElement.classList.toggle('active')" class="w-full p-6 text-left flex justify-between items-center bg-slate-50 hover:bg-slate-100 transition-colors">
+                        <span class="font-bold text-lg">¿Tengo que pagar una cuota mensual?</span>
+                        <span class="text-blue-600 font-bold text-2xl">+</span>
+                    </button>
+                    <div class="faq-answer p-6 text-slate-600 bg-white border-t border-slate-100">
+                        No. Cobro un pago único por el diseño y la puesta en marcha. Solo tendrás el costo anual del dominio y hosting (que son muy económicos).
+                    </div>
+                </div>
+                <!-- FAQ 3 -->
+                <div class="faq-item border border-slate-200 rounded-2xl overflow-hidden transition-all">
+                    <button onclick="this.parentElement.classList.toggle('active')" class="w-full p-6 text-left flex justify-between items-center bg-slate-50 hover:bg-slate-100 transition-colors">
+                        <span class="font-bold text-lg">¿Qué pasa si no me gusta el diseño final?</span>
+                        <span class="text-blue-600 font-bold text-2xl">+</span>
+                    </button>
+                    <div class="faq-answer p-6 text-slate-600 bg-white border-t border-slate-100">
+                        Trabajamos con revisiones. No lanzamos la web hasta que estés 100% conforme con el resultado y la imagen de tu negocio.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Final -->
+    <footer class="py-24 px-6 bg-slate-900 text-white text-center relative overflow-hidden">
+        <div class="absolute top-0 left-0 w-full h-full opacity-10 pointer-events-none">
+            <div class="absolute top-[-10%] left-[-10%] w-64 h-64 bg-blue-500 rounded-full blur-3xl"></div>
+            <div class="absolute bottom-[-10%] right-[-10%] w-64 h-64 bg-blue-700 rounded-full blur-3xl"></div>
+        </div>
+        <div class="relative z-10 max-w-3xl mx-auto">
+            <div class="flex items-center justify-center gap-2 mb-8">
+                <img src="favicon-32x32.png" alt="Foundly Logo" class="w-6 h-6 brightness-0 invert">
+                <span class="text-2xl font-extrabold tracking-tight">Foundly</span>
+            </div>
+            <h2 class="text-3xl md:text-5xl font-extrabold mb-6 leading-tight">¿Quieres que tu negocio sea el número 1 en Google?</h2>
+            <p class="text-slate-400 mb-10 text-lg">No pierdas más clientes frente a tu competencia. Hagamos tu web hoy mismo.</p>
+
+            <!-- Coverage Info -->
+            <div class="mb-8 inline-flex items-center gap-2 px-4 py-2 bg-slate-800 rounded-full text-sm text-slate-300">
+                <span class="text-blue-400">📍</span> Operamos en Almagro y alrededores
+            </div>
+
+            <div class="mt-6">
+                <a href="https://wa.me/TU_NUMERO" class="bg-blue-600 text-white px-10 py-5 rounded-full font-bold text-xl shadow-xl shadow-blue-900/20 hover:bg-blue-500 transition-all transform hover:scale-105 inline-block">
+                    ¡Quiero mi página web ahora!
+                </a>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
